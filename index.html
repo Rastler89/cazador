@@ -2,6 +2,7 @@
 <html>
     <head>
         <!-- Externo -->
+        <script type="text/javascript" src="js/processing.js"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <!-- CSS -->
@@ -28,8 +29,8 @@
                 <div class="col s3">
                     <h5>Historia</h5>
                 </div>
-                <div class="col s6">
-                    <canvas id="cuerpoJuego">El navegador actual no puede cargar canvas</canvas>
+                <div class="col s6 center">
+                    <canvas id="core" data-processing-sources="core.pde">El navegador actual no puede cargar canvas</canvas>
                 </div>
                 <div class="col s3">
                     <h5>Como jugar?</h5>
@@ -37,9 +38,9 @@
             </div>
         </div>
         <!-- JavaScript -->
-        <script type="text/javascript" src="js/core.js"></script>
-        <script type="text/javascript" src="js/function.js"></script>
+        
         <!-- Externo -->
+        
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
